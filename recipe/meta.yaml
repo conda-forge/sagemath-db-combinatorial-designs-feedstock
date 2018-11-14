@@ -11,8 +11,8 @@ source:
   sha256: c9486c6d7ec71da338589a6e301723be4e55e02dcfc41f8dba11a682e3b3482e
 
 build:
-  number: 0
-  skip: true  # [win]
+  number: 1
+  noarch: generic
 
 test:
   commands:
